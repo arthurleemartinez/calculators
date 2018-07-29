@@ -1,5 +1,3 @@
-# Import ALL from math library from python
-from math import *
 # I need to calculate the amount of money I need to spend to cancel out the $39 Quicksilver annual fee
 # The life-time cash back bonus is 1.5%
 
@@ -15,6 +13,7 @@ def crossPercentage(x, o):
     right = (o * y) 
     left = right
     answer1 = (left/x)
-    return answer1
+    answer2 = str(answer1)
+    return answer2
 # function call using previously specified variables    
-crossPercentage(0.015, 39)
+print crossPercentage(0.015, 39)
