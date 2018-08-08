@@ -17,4 +17,4 @@ def crossPercentage(x, o):
     answer2 = str(answer1)
     return answer2
 # function call using previously specified variables    
-print crossPercentage(0.015, 39)
+print(crossPercentage(0.015, 39))
